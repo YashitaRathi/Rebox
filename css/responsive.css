@@ -1,0 +1,1939 @@
+@media screen and (max-width:1080px)
+
+/* tablet 992px */
+    {
+
+    /* --------------------------------------------------Home--------------------------------------------------------------- */
+
+    /* Header */
+
+    header .logo img {
+        width: 190px;
+        padding-top: 10px;
+    }
+
+    header .heart {
+        padding-left: 15px;
+    }
+
+    #badge {
+        margin-left: 11px;
+        position: relative;
+        top: -28px;
+    }
+
+    header .basket {
+        padding-left: 15px;
+    }
+
+    header .search {
+        margin: 0px 17px 0px 10px;
+    }
+
+    header input {
+        padding: 10px 60px 10px 20px;
+    }
+
+    header form {
+        width: 438px;
+    }
+
+    /* Bar */
+
+    header .bar .col-lg-6 {
+        flex: 0 0 auto;
+        width: 49%;
+    }
+
+    /* Couponcode */
+
+    /* Slider */
+
+    .slider .slick-prev:before,
+    .slick-next:before {
+        padding: 6px;
+    }
+
+    .slider .slick-prev {
+        left: -10px;
+        z-index: 1;
+    }
+
+    .slider .slick-next {
+        right: 71px;
+    }
+
+    /* Online */
+
+    .online::before {
+        width: 958px;
+        left: 12px;
+    }
+
+    /* Ads */
+
+    .ads .t-shirt {
+        width: 462px;
+    }
+
+    .ads .shoes {
+        width: 462px;
+    }
+
+    .ads .women {
+        width: 475px;
+    }
+
+    .ads .women h6 {
+        padding: 215px 0px 0px 130px;
+        margin-bottom: 0px;
+    }
+
+    .ads .women p.hel {
+        padding: 0px 0px 0px 100px;
+    }
+
+    .ads .women p.off {
+        padding: 0px 0px 0px 278px;
+    }
+
+    .ads .women button {
+        margin-left: 175px;
+    }
+
+    /* Daily */
+
+    .daily h6.decoration {
+        margin-left: 285px;
+    }
+
+    .daily02 .text {
+        left: 66px;
+    }
+
+    .daily01 h6 {
+        font-size: 18px;
+    }
+
+    /* Product */
+
+    /* Nike */
+
+    .nike .text {
+        padding-bottom: 54px;
+    }
+
+    .nike h3 {
+        font-size: 30px;
+    }
+
+    .nike p.n {
+        font-size: 50px;
+    }
+
+    .nike p.a {
+        font-size: 50px;
+    }
+
+    /* Wh */
+
+    .wh .box {
+        padding: 0px;
+    }
+
+    .wh p.p1 {
+        font-size: 14px;
+    }
+
+    .wh a {
+        font-size: 14px;
+    }
+
+    .wh i.fa-regular.fa-clock {
+        margin-left: 20px;
+    }
+
+    .wh p.p2 {
+        font-size: 14px;
+        margin-left: 5px;
+    }
+
+    .wh h5 {
+        margin-bottom: 14px;
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .wh .text {
+        margin-top: 0px;
+        margin-left: 14px;
+        text-align: left;
+    }
+
+    .wh .popular .pic02 img {
+        width: 290px;
+        height: 143px;
+    }
+
+    .wh h5 {
+        margin-top: 10px;
+        margin-bottom: 10px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    /* It */
+
+    .it .lines p {
+        font-size: 13px;
+        word-spacing: 0px;
+        padding: 10px 0px;
+    }
+
+    .it .line p {
+        font-size: 13px;
+        word-spacing: 0;
+        padding: 10px 0px 31px 0px;
+    }
+
+    .it .lins p {
+        font-size: 12px;
+        word-spacing: 0;
+        padding: 10px 0px 15px 0px;
+    }
+
+    .it p.p1 {
+        font-size: 14px;
+    }
+
+    .it .text {
+        margin-top: 0px;
+    }
+
+    /* E */
+
+    .e h3 {
+        font-size: 35px;
+    }
+
+    .e p {
+        font-size: 20px;
+    }
+
+    .e .follow img {
+        width: 162px;
+        max-width: none;
+    }
+
+    /* Footer */
+
+    footer .foot form {
+        width: 718px;
+    }
+
+    footer .foot input.email {
+        width: 599px;
+    }
+
+    /* ---------------------------------------------------------------About------------------------------------------------ */
+    /* Contact */
+
+    .contact p.address {
+        font-size: 20px;
+    }
+
+    .contact p.timing {
+        font-size: 19px;
+    }
+
+    .contact p.number {
+        font-size: 20px;
+    }
+
+    section.contact {
+        margin: 0px 10px;
+    }
+
+    /* Map */
+
+    /* Questions */
+
+    .questions input.your {
+        width: 935px;
+    }
+
+    .questions input.name {
+        width: 300px;
+    }
+
+    section.questions {
+        margin: 0px 10px;
+    }
+
+    /* --------------------------------------------------------------Blog------------------------------------------------------ */
+
+    /* Masonary */
+    .masonary .blog .img01 img {
+        max-width: none;
+        width: 460px;
+    }
+
+    .masonary .blog00 .img01 img {
+        max-width: none;
+        width: 460px;
+    }
+
+    .masonary .blog01 .img01 img {
+        max-width: none;
+        width: 460px;
+    }
+
+    .masonary .blog02 .img01 img {
+        max-width: none;
+        width: 460px;
+    }
+
+    .masonary .blog03 .img01 img {
+        max-width: none;
+        width: 460px;
+    }
+
+    .masonary .blog a {
+        padding-right: 50px;
+    }
+
+    .masonary .blog00 a {
+        padding-right: 50px;
+    }
+
+    .masonary .blog01 a {
+        padding-right: 50px;
+    }
+
+    .masonary .blog02 a {
+        padding-right: 50px;
+    }
+
+    .masonary .blog03 a {
+        padding-right: 50px;
+    }
+
+    .masonary .blog p.p2 {
+        font-size: 14px;
+    }
+
+    .masonary .blog00 p.p2 {
+        font-size: 14px;
+    }
+
+    .masonary .blog02 p.p2 {
+        font-size: 14px;
+    }
+
+    .masonary .blog03 #hell p.p2 {
+        font-size: 13px;
+    }
+
+    .masonary .blog03 p.p2 {
+        font-size: 14px;
+    }
+
+
+    /* -------------------------------------------------\Shop---------------------------------------------------------------- */
+
+    /* Shop */
+
+    .shop {
+        padding-bottom: 45px;
+    }
+
+    .shop .circle h6 {
+        margin-top: 5px;
+    }
+
+    /* Categories */
+
+    section.topline01 {
+        padding-bottom: 25px;
+    }
+    .categories .sort .topline02 .button .dropdown-toggle::after {
+        margin-left: 5px;
+    }
+
+    .categories .sort .topline02 .button {
+        padding-left: 5px;
+    }
+    .categories .sort .mlb .greenbox {
+        left: 14px;
+    }
+    .categories .sort .topline02 .show p {
+        font-size: 13px;
+        margin-left: 10px;
+    }
+
+    .categories .sort .fifa .greenbox {
+        left: 14px;
+    }
+
+    .categories .sort .rebook .greenbox {
+        left: 14px;
+    }
+
+    .categories .sort .annas .greenbox {
+        left: 14px;
+    }
+    .categories .sort p span {
+        padding-left: 38px;
+    }
+
+/* ------------------------------------------------T-Shirt-------------------------------------------------------------- */
+
+    /* T-shirt */
+
+    .t-shirt h4 {
+        font-size: 20px;
+    }
+
+    .t-shirt #img img {
+        height: 520px;
+    }
+
+    .t-shirt h3 {
+        font-size: 40px;
+    }
+
+    .t-shirt .rows4 #bord img {
+        padding-left: 0px;
+    }
+
+    .t-shirt .rows4 #bord p.nymb {
+        margin-left: 0px;
+        font-size: 18px;
+    }
+
+    .t-shirt .rows4 p.title {
+        font-size: 19px;
+    }
+
+    .t-shirt .one button {
+        font-size: 17px;
+    }
+
+    .t-shirt .quantity .plus {
+        margin: 3px 0px 0px 4px;
+        height: 61px;
+    }
+
+    .t-shirt .quantity .plus p {
+        font-size: 35px;
+        padding-right: 10px;
+        padding-left: 7px;
+    }
+
+    .t-shirt .quantity .plus p.border01 {
+        font-size: 35px;
+    }
+
+    .t-shirt .minus button {
+        font-size: 20px;
+        padding: 16px 20px;
+    }
+
+    .t-shirt .tags p.jacket {
+        font-size: 13px;
+    }
+
+    .t-shirt .tags p.categories {
+        font-size: 16px;
+    }
+
+    /* Sportsware */
+
+    .sportsware .reviews p.tab {
+        font-size: 20px;
+        padding-right: 0px;
+    }
+
+    .sportsware .reviews p.revi {
+        font-size: 20px;
+    }
+
+    .sportsware .reviews p.des {
+        font-size: 20px;
+    }
+
+    .sportsware .reviews p.addi {
+        font-size: 20px;
+    }
+
+    .sportsware .tee .sdtmsmlt {
+        font-size: 33px;
+    }
+
+    .sportsware .tee .atfvec {
+        font-size: 30px;
+    }
+
+    .sportsware .tee .paragraph {
+        font-size: 17px;
+    }
+
+    .sportsware .tee .series {
+        font-size: 18px;
+    }
+
+    /* Alsolike */
+
+    .alsolike .gear img {
+        width: 135px;
+        max-width: none;
+    }
+
+    .alsolike .gear p.ption {
+        font-size: 15px;
+    }
+
+
+
+
+
+}
+
+@media screen and (max-width:991px)
+
+/* ipad 768px */
+    {
+
+    /* --------------------------------------------------Home---------------------------------------------------------- */
+
+    /* Header */
+
+    header p.hel::before {
+        width: 334px;
+    }
+
+    header .search {
+        margin: 10px 17px 0px 0px;
+    }
+
+    header .logo img {
+        width: 230px;
+        padding-top: 10px;
+        padding-left: 10px;
+    }
+
+    header .search {
+        margin: 10px 17px 0px 0px;
+    }
+
+    header .nav-link {
+        font-size: 18px;
+        color: #161616;
+        margin-top: 0px;
+    }
+
+    #badge {
+        margin-left: -10px;
+        position: relative;
+        top: 0px;
+    }
+
+    /* Bar */
+
+    /* Couponcode */
+
+    /* Slider */
+
+    .slider .text {
+        padding-top: 195px;
+        margin-left: 51px;
+    }
+
+    .slider button.bot {
+        margin-left: 249px;
+        margin-top: 13px;
+    }
+
+    header .slider .slider01 p.off {
+        font-size: 70px;
+        padding: 0px 0px 0px 106px;
+        margin-bottom: 0px;
+    }
+
+    header .slider .slider01 p.hel {
+        font-size: 69px;
+        padding: 0px 0px 0px 150px;
+        margin-top: -35px
+    }
+
+    /* Online */
+
+    .online::before {
+        width: 751px;
+        left: 0px;
+    }
+
+    /* Ads */
+
+    .ads .shoes {
+        width: 355px;
+    }
+
+    .ads .t-shirt {
+        width: 355px;
+    }
+
+    .ads .women {
+        width: 355px;
+    }
+
+    .ads .women h6 {
+        padding: 215px 0px 0px 70px;
+        margin-bottom: 0px;
+    }
+
+    .ads .women p.hel {
+        font-size: 71px;
+        padding: 0px 0px 0px 75px;
+        margin-top: -18px;
+        margin-bottom: 0px;
+    }
+
+    .ads .women p.off {
+        font-size: 68px;
+        padding: 13px 0px 0px 220px;
+        margin-top: -126px;
+        margin-bottom: 0px;
+    }
+
+    .ads .women button {
+        margin-left: 124px;
+        margin-top: -18px;
+    }
+
+    /* Daily */
+
+    .daily h6.decoration {
+        margin-left: 173px;
+    }
+
+    .daily02 .text {
+        left: 18px;
+    }
+
+    /* Product */
+
+    .product h6 {
+        font-size: 13px;
+        font-weight: 400;
+    }
+
+    .product .pic03 p.cart {
+        margin-bottom: 0px;
+    }
+
+    /* Nike */
+
+    .nike .text {
+        padding-bottom: 82px;
+        padding-top: 100px;
+    }
+
+    .nike h3 {
+        padding-top: 0px;
+    }
+
+    /* Wh */
+
+    .wh h5 {
+        margin-bottom: 10px;
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .wh .text {
+        margin-top: 35px;
+        margin-left: 0px;
+    }
+
+    .wh .popular {
+        margin: 0px 0px 20px 24px;
+    }
+
+    .wh .post {
+        margin: 0px 0px 0px 24px;
+    }
+
+    .wh img {
+        width: 318px;
+        height: 143px;
+    }
+
+    .wh i.fa-regular.fa-clock {
+        margin-left: 7px;
+        position: relative;
+        top: 2px;
+    }
+
+    .wh p.p2 {
+        font-size: 11px;
+        margin-left: 5px;
+    }
+
+    .wh .box {
+        display: inline;
+        padding: 0px;
+        margin-left: 0px;
+    }
+
+    .wh p.p1 {
+        font-size: 11px;
+    }
+
+    .wh a {
+        font-size: 11px;
+    }
+
+    /* It */
+
+    .it .lines p {
+        word-spacing: 0px;
+        font-size: 9px;
+    }
+
+    .it .lins p {
+        padding: 10px 0px 10px 0px;
+        word-spacing: 0px;
+        font-size: 9px;
+    }
+
+    .it .line p {
+        word-spacing: 0px;
+        padding: 10px 0px 12px 0px;
+    }
+
+    .it {
+        padding-top: 20px;
+    }
+
+    .it p.p1 {
+        font-size: 11px;
+    }
+
+    .it h5 {
+        font-size: 13px;
+    }
+
+    /* E */
+
+    .e {
+        background-image: linear-gradient(to bottom, #f3f4f5 50%, #ffffff 50%);
+        padding-top: 50px;
+        padding-bottom: 10px;
+    }
+
+    .e .follow img {
+        width: 124px;
+    }
+
+    /* Footer */
+
+    footer .foot form {
+        margin-left: 75px;
+        width: 618px;
+    }
+
+    footer .foot input.email {
+        padding: 10px 210px 10px 20px;
+        width: 500px;
+    }
+
+    footer section.media img {
+        position: relative;
+        left: 4px;
+    }
+
+    footer .media .socialmedia img {
+        left: 20px;
+    }
+
+    footer .media .sm img {
+        left: 0px;
+    }
+
+    footer .list p {
+        font-size: 13px;
+        margin-bottom: 5px;
+    }
+
+    footer .list h6 {
+        font-size: 15px;
+    }
+
+    footer .media p {
+        color: #CDCDCD;
+        font-size: 14px;
+        padding: 0px 0px 0px 0px;
+        display: inline;
+    }
+
+    /* ------------------------------------------------------About---------------------------------------------------------------- */
+    /* Contact */
+
+    section.contact {
+        margin: 0px 10px;
+    }
+
+    /* Map */
+
+    /* Questions */
+
+    section.questions {
+        margin: 0px 10px;
+    }
+
+    .questions input.your {
+        width: 715px;
+    }
+
+    .questions input.name {
+        width: 227px;
+    }
+
+    .questions .any h2 {
+        font-size: 40px;
+    }
+
+    .questions .any p {
+        font-size: 23px;
+    }
+
+
+    /* --------------------------------------------------------------Blog------------------------------------------------------- */
+
+    /* Masonary */
+
+    .masonary .blog .img01 img {
+        max-width: none;
+        width: 350px;
+    }
+
+    .masonary .blog00 .img01 img {
+        max-width: none;
+        width: 350px;
+    }
+
+    .masonary .blog01 .img01 img {
+        max-width: none;
+        width: 350px;
+    }
+
+    .masonary .blog02 .img01 img {
+        max-width: none;
+        width: 350px;
+    }
+
+    .masonary .blog03 .img01 img {
+        max-width: none;
+        width: 350px;
+    }
+
+    .masonary .blog a {
+        padding-right: 20px;
+    }
+
+    .masonary .blog00 a {
+        padding-right: 20px;
+    }
+
+    .masonary .blog01 a {
+        padding-right: 20px;
+    }
+
+    .masonary .blog02 a {
+        padding-right: 20px;
+    }
+
+    .masonary .blog03 a {
+        padding-right: 20px;
+    }
+
+    .masonary .blog03 #llo img {
+        padding-left: 30px;
+    }
+
+    .masonary .blog03 p.p2 {
+        font-size: 13px;
+    }
+
+    .masonary .blog03 p.p1 {
+        font-size: 15px;
+    }
+
+    .masonary .blog03 a {
+        font-size: 15px;
+    }
+
+    .masonary .blog02 p.p1 {
+        font-size: 15px;
+    }
+
+    .masonary .blog02 a {
+        font-size: 15px;
+    }
+
+    .masonary .blog01 p.p1 {
+        font-size: 15px;
+    }
+
+    .masonary .blog01 a {
+        font-size: 15px;
+    }
+
+    .masonary .blog01 p.p1 {
+        font-size: 15px;
+    }
+
+    .masonary .blog01 a {
+        font-size: 15px;
+    }
+
+    .masonary .blog00 p.p1 {
+        font-size: 15px;
+    }
+
+    .masonary .blog00 a {
+        font-size: 15px;
+    }
+
+    .masonary .blog p.p1 {
+        font-size: 15px;
+    }
+
+    .masonary .blog a {
+        font-size: 15px;
+    }
+
+    .masonary .blog03 #hello p.p1 {
+        padding-left: 9px;
+    }
+
+    .masonary .blog03 #hell p.p2 {
+        margin-left: 3px;
+    }
+
+    .masonary .blog02 p.p2 {
+        font-size: 13px;
+    }
+
+    .masonary .blog02 #llo img {
+        padding-left: 20px;
+    }
+
+    .masonary .blog00 #llo img {
+        padding-left: 20px;
+    }
+
+    .masonary .blog #llo img {
+        padding-left: 20px;
+    }
+
+    /* -------------------------------------------------\Shop---------------------------------------------------------------- */
+
+    /* Shop */
+
+    .shop .kid {
+        margin-bottom: 30px;
+    }
+    .shop .men{
+        margin-bottom: 30px;
+    }
+    .shop .circle h6 {
+        margin-top: 45px;
+        font-size: 24px;
+    }
+    .shop .circle p {
+        margin-left: 0px;
+        font-size: 16px;
+    }
+
+    /* Categories */
+
+    .categories .sort h5 {
+        font-size: 20px;
+        margin-bottom: 4px;
+    }
+    .categories .sort .topline02 .button .dropdown-toggle::after {
+        margin-left: 25px;
+    }
+    section.mlb {
+        margin-top: 35px;
+    }
+    .categories .sort .topline02 .show p {
+        font-size: 18px;
+    }
+    .categories .sort .topline02 .button24 {
+        margin-left: 75px;
+    }
+    .categories .sort p {
+        margin-left: 10px;
+        font-size: 18px;
+    }
+    .categories .sort p.plus {
+        font-size: 15px;
+    }
+    .categories .sort .mlb .greenbox p {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .categories .sort .fifa .greenbox p {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .categories .sort .rebook .greenbox p {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .categories .sort .annas .greenbox p {
+        font-size: 10px;
+        margin-left: 0px;
+    }
+    .categories .sort h6 {
+        font-size: 14px;
+    }
+    .categories .sort p.te {
+        font-size: 17px;
+    }
+    .categories .sort p.xt {
+        font-size: 17px;
+    }
+    .categories .sort .rebook #discount p.xt {
+        font-size: 17px;
+    }
+    .categories .sort .rebook #discount p.boldred {
+        font-size: 17px;
+    }
+    .categories .sort .fifa #discount p.xt {
+        font-size: 17px;
+    }
+    .categories .sort .fifa #discount p.boldred {
+        font-size: 17px;
+    }
+    .categories .sort .mlb #discount p.xt {
+        font-size: 17px;
+    }
+    .categories .sort .mlb #discount p.boldred {
+        font-size: 17px;
+    }
+    .categories .sort .annas #discount p.xt {
+        font-size: 17px;
+    }
+    .categories .sort .annas #discount p.boldred {
+        font-size: 17px;
+    }
+    .categories .sort .colors p.colornumber {
+        font-size: 14px;
+    }
+    .categories .sort .size p.sizenumber {
+        font-size: 14px;
+    }
+    .categories .sort .brands p.brandsnumber {
+        font-size: 14px;
+    }
+    .categories .sort p {
+        font-size: 14px;
+    }
+    .categories .sort .rating p.starcount {
+        font-size: 14px;
+    }
+    section.topline01 {
+        margin-bottom: 20px;
+    }
+    section.colors {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    section.size {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    section.brands {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    section.price {
+        margin-bottom: 20px;
+        padding-bottom: 20px;
+    }
+    .categories .sort .mlb p.te {
+        font-size: 17px;
+    }
+    .categories .sort .fifa p.te {
+        font-size: 17px;
+    }
+    .categories .sort .rebook p.te {
+        font-size: 17px;
+    }
+    .categories .sort .annas p.te {
+        font-size: 17px;
+    }
+    section.mlb {
+        margin-top: 45px;
+    }
+    section.pume {
+        margin-top: 60px;
+    }
+    section.fifa {
+        margin-top: 60px;
+    }
+    section.supersport {
+        margin-top: 60px;
+    }
+    .categories .sort .buttoblue button.arrow {
+        padding: 10px 0px;
+    }
+    .button24 ul.dropdown-menu.show {
+        position: absolute;
+        inset: auto 0px 0px auto;
+        margin: 0px;
+        transform: translate3d(16.2px, 24px, 0px)!important;
+    }
+    .categories .sort .topline02 .button24 {
+        margin-left: 0px;
+    }
+
+/* -------------------------------------------------------T-shirt------------------------------------------------------- */
+
+  /* T-shirt */
+
+  .t-shirt h4 {
+    font-size: 16px;
+}
+
+.t-shirt #img img {
+    height: 410px;
+}
+
+.t-shirt h3 {
+    font-size: 32px;
+}
+
+.t-shirt .rows4 p.nymb {
+    padding-right: 25px;
+}
+
+.t-shirt h4.price {
+    font-size: 30px;
+    margin: 20px 0px 10px 0px;
+}
+
+.t-shirt p.direction {
+    font-size: 15px;
+}
+
+.t-shirt .quantity {
+    margin: 30px 0px 20px 0px;
+}
+
+.t-shirt .quantity h5 {
+    margin-bottom: 15px;
+    font-size: 25px;
+}
+
+.t-shirt .quantity .plus p.border01 {
+    font-size: 35px;
+    padding: 0px 15px;
+}
+
+.t-shirt .quantity .plus p {
+    font-size: 35px;
+    padding: 0px 0px;
+}
+
+.t-shirt .quantity .plus {
+    margin: 3px 0px 0px 0px;
+    height: 61px;
+    width: 120px;
+}
+
+.t-shirt .one button {
+    padding: 5px 5px;
+}
+
+.t-shirt .minus button {
+    font-size: 17px;
+    padding: 5px 19px;
+}
+
+.t-shirt .tags img {
+    width: 25px;
+}
+
+.t-shirt .tags p.categories {
+    font-size: 19px;
+    display: block;
+}
+
+section.sportsware {
+    margin-top: 70px;
+}
+
+/* Alsolike */
+
+.alsolike .gear img {
+    width: 110px;
+    max-width: none;
+}
+
+.alsolike .gear p.ption {
+    font-size: 19px;
+}
+
+
+}
+
+@media screen and (max-width:767px)
+
+/* mobile 360px */
+    {
+
+    /* --------------------------------------------------Home----------------------------------------------------------------- */
+
+    /* Header */
+
+    header p.hel::before {
+        width: 220px;
+    }
+
+    header form {
+        width: 300px;
+        margin: 10px 17px 0px 0px;
+    }
+
+    header input {
+        padding: 10px 0px 10px 10px;
+    }
+
+    #badge {
+        margin-left: -8px;
+        position: relative;
+        top: -4px;
+    }
+
+    /* Bar */
+
+    header .bar button {
+        margin-left: 29px;
+    }
+
+    /* Couponcode */
+
+    header .couponcode p {
+        font-size: 12px;
+        padding-top: 11px;
+    }
+
+    /* Slider */
+
+    .slider button.bot {
+        margin-left: 0px;
+        margin-top: 12px;
+    }
+
+    header .slider .slider01 {
+        height: 378px;
+    }
+
+    header .slider .slider02 {
+        height: 378px;
+    }
+
+    header .slider .slider01 h6 {
+        padding-top: 5px;
+        margin-left: 67px;
+    }
+
+    header .slider .slider01 p.off {
+        font-size: 45px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    header .slider .slider01 p.hel {
+        font-size: 47px;
+        padding: 0px 0px 0px 0px;
+        margin-top: -20px;
+    }
+
+    header .slider .slider02 h6 {
+        padding-top: 5px;
+        margin-left: 67px;
+    }
+
+    header .slider .slider02 p.off {
+        font-size: 45px;
+        padding: 0px 0px 0px 0px;
+    }
+
+    header .slider .slider02 p.hel {
+        font-size: 47px;
+        padding: 0px 0px 0px 0px;
+        margin-top: -20px;
+    }
+
+    .slider .slick-prev:before,
+    .slick-next:before {
+        font-size: 35px;
+        top: 0px;
+    }
+
+    .slider .slick-next {
+        right: 34px;
+    }
+
+    .slider .text {
+        margin-left: 0px;
+        padding-top: 85px;
+        text-align: center;
+    }
+
+    /* Online */
+
+    .online::before {
+        width: 342px;
+        left: 0px;
+    }
+
+    /* Ads */
+
+    .ads .women {
+        width: 325px;
+    }
+
+    .ads .shoes {
+        width: 325px;
+    }
+
+    .ads .t-shirt {
+        width: 325px;
+        margin-bottom: 20px;
+    }
+
+    .ads .women button {
+        margin-left: 87px;
+        margin-top: -18px;
+    }
+
+    .ads .women p.off {
+        font-size: 70px;
+        padding: 30px 0px 0px 181px;
+        margin-top: -126px;
+        margin-bottom: 0px;
+    }
+
+    .ads .women p.hel {
+        font-size: 65px;
+        padding: 7px 0px 0px 47px;
+        margin-top: -18px;
+        margin-bottom: 0px;
+    }
+
+    .ads .women h6 {
+        padding: 215px 0px 0px 30px;
+        margin-bottom: 0px;
+    }
+
+    /* Daily */
+
+    .daily02 .dailybox {
+        position: relative;
+        margin-bottom: 10px;
+    }
+
+    .daily h3 {
+        display: inline;
+        font-weight: 700;
+        padding-left: 0px;
+        font-size: 30px;
+    }
+
+    .daily h4 {
+        text-align: left;
+    }
+
+    .daily .daily01 img {
+        margin-top: 20px;
+    }
+
+    .daily h6.decoration {
+        margin-left: -6px;
+        padding: 10px 10px 10px 10px;
+        width: 150px;
+    }
+
+    /* Product */
+
+    .product .pic03 p.cart {
+        display: inline;
+    }
+
+    .product .pic03 {
+        margin-bottom: 20px;
+    }
+
+    /* Nike */
+
+    .nike {
+        background-position: center;
+    }
+
+    .nike .text {
+        padding-bottom: 60px;
+        padding-top: 60px;
+    }
+
+    .nike h3 {
+        padding-top: 0px;
+    }
+
+    .nike p.n {
+        font-size: 50px;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .nike p.a {
+        font-size: 50px;
+        display: block;
+        margin: -15px 0px -12px 0px;
+        padding: 0;
+    }
+
+    .nike button {
+        margin-top: 5px;
+    }
+
+    /* Wh */
+
+    .wh h5 {
+        font-size: 21px;
+    }
+
+    .wh img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wh a {
+        font-size: 18px;
+    }
+
+    .wh h5 {
+        font-size: 21px;
+    }
+
+    .wh p.p2 {
+        font-size: 18px;
+        margin-left: 5px;
+    }
+
+    .wh i.fa-regular.fa-clock {
+        margin-left: 51px;
+        top: 0px;
+    }
+
+    .wh .box {
+        display: inline;
+        margin-left: 0px;
+    }
+
+    .wh .text {
+        margin-top: 0px;
+        margin-left: 2px;
+        text-align: left;
+        margin-bottom: 20px;
+    }
+
+    .wh .popular .pic02 img {
+        width: 100%;
+        height: 100%;
+    }
+
+    .wh p.p1 {
+        font-size: 18px;
+    }
+
+    /* It */
+
+    .it .lines p {
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    .it p.p1 {
+        font-size: 16px;
+        margin-bottom: 10px;
+    }
+
+    .it h5 {
+        font-size: 17px;
+    }
+
+    .it .men {
+        margin-bottom: 20px;
+    }
+
+    .it h3 {
+        font-size: 32px;
+    }
+
+    .it .lins p {
+        padding: 0px;
+        font-size: 13px;
+    }
+
+    .it .line p {
+        padding: 0px;
+    }
+
+    .it img {
+        max-width: 37%;
+        height: auto;
+    }
+
+    /* E */
+
+    .e .follow img {
+        width: 136px;
+        padding-bottom: 20px;
+    }
+
+    .e .logos .im1,
+    .e .logos .im2,
+    .e .logos .im3,
+    .e .logos .im4,
+    .e .logos .im5,
+    .e .logos .im6 {
+        padding-left: 12px;
+    }
+
+    .e .logos img {
+        width: 136px;
+        padding-bottom: 20px;
+    }
+
+
+    /* Footer */
+
+    footer section.media img {
+        position: relative;
+        left: 289px;
+    }
+
+    footer .media .socialmedia img {
+        left: 0px;
+    }
+
+    footer .media .socialmedia {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    footer .media .sm {
+        text-align: left;
+        margin-top: 20px;
+    }
+
+    footer .foot form {
+        margin-left: 0px;
+        width: 300px;
+    }
+
+    footer .foot input.email {
+        padding: 10px 0px 10px 20px;
+        width: 300px;
+    }
+
+    footer .foot button {
+        padding: 6px 10px 8px 10px;
+        margin-left: 0px;
+    }
+
+    footer .foot h3 {
+        font-size: 37px;
+    }
+
+    footer .sjjjj {
+        margin-bottom: 20px;
+    }
+
+    /* ------------------------------------------------------About---------------------------------------------------------------- */
+    /* Contact */
+
+    .contact .home {
+        margin-bottom: 50px;
+    }
+
+    /* Map */
+
+    /* Questions */
+
+    .questions .any h2 {
+        font-size: 34px;
+    }
+
+    .questions .any p {
+        font-size: 19px;
+    }
+
+    .questions input.name {
+        width: 300px;
+    }
+
+    .questions input.your {
+        width: 300px;
+    }
+
+
+    /* --------------------------------------------------------------Blog------------------------------------------------------- */
+
+    /* Masonary */
+
+    .masonary .blog03 #col02 {
+        text-align: left;
+    }
+
+    .masonary .blog03 .img01 img {
+        width: 318px;
+    }
+
+    .masonary .blog02 .img01 img {
+        width: 318px;
+        margin-top: 20px;
+    }
+
+    .masonary .blog01 .img01 img {
+        width: 318px;
+        margin-top: 20px;
+    }
+
+    .masonary .blog00 .img01 img {
+        width: 318px;
+        margin-top: 20px;
+    }
+
+    .masonary .blog .img01 img {
+        width: 318px;
+        margin-top: 20px;
+    }
+
+    .masonary .blog03 .box {
+        margin-bottom: 20px;
+    }
+
+    .masonary .blog03 #hello {
+        text-align: left;
+    }
+
+    .masonary .blog02 #col02 {
+        text-align: left;
+    }
+
+    .masonary .blog00 #col02 {
+        text-align: left;
+    }
+
+    .masonary .blog #col02 {
+        text-align: left;
+    }
+
+    .masonary .home h2 {
+        font-size: 41px;
+        margin: 0px;
+    }
+
+    .masonary .home {
+        text-align: center;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+
+    .masonary .blog03 #order2 {
+        order: 1;
+        margin-bottom: 20px;
+    }
+
+    .masonary .blog03 #order1 {
+        order: 2;
+    }
+
+    .masonary .blog {
+        margin: 0px 0px;
+    }
+
+    .masonary .blog00 {
+        margin: 0px 0px;
+    }
+
+    .masonary .blog02 {
+        margin: 0px 0px;
+    }
+
+    .masonary .blog03 {
+        margin: 0px 0px 20px 0px;
+    }
+
+    /* -------------------------------------------------\Shop---------------------------------------------------------------- */
+
+    /* Shop */
+
+    .shop {
+        padding-bottom: 25px;
+    }
+    .shop .circle p {
+        margin-left: 12px;
+        font-size: 16px;
+    }
+    .shop .circle h6 {
+        margin-top: 15px;
+    }
+
+    /* Categories */
+
+    .categories .sort p span {
+        padding-left: 3px;
+    }
+    .categories .sort .topline02 .button24 {
+        margin-left: 15px;
+    }
+    .categories .sort p {
+        font-size: 20px;
+    }
+    .categories .sort .topline02 .button24 {
+        margin-left: 0px;
+    }
+    .categories .sort .topline02 .button a.nav-link.dropdown-toggle {
+        font-size: 20px;
+    }
+    .categories .sort .topline02 .button .dropdown-toggle::after {
+        margin-left: 117px;
+    }
+    .categories .sort .topline02 .button {
+        margin-bottom: 20px;
+    }    
+    .categories .sort .topline02 .show {
+        margin-bottom: 20px;
+    }
+    .categories .sort .topline02 .show p {
+        font-size: 20px;
+    }
+    .categories .sort .topline02 .button24 {
+        margin-left: 22px;
+    }
+    .categories .sort .topline02 img {        
+        margin-right: 5px;
+    }
+    .categories .sort h6 {
+        font-size: 20px;
+    }
+    .categories .sort .mlb .greenbox p {
+        font-size: 22px;
+    }
+    .categories .sort .fifa .greenbox p {
+        font-size: 22px;
+    }
+    .categories .sort .rebook .greenbox p {
+        font-size: 22px;
+    }
+    .categories .sort .annas .greenbox p {
+        font-size: 22px;
+    }
+    .categories .sort .mlb p.te {
+        font-size: 20px;
+    }
+    .categories .sort .mlb #discount p.xt {
+        font-size: 20px;
+    }
+    .categories .sort .mlb #discount p.boldred {
+        font-size: 20px;
+    }
+    .categories .sort p.xt {
+        font-size: 20px;
+    }
+    section.pume {
+        margin-top: 15px;
+    }
+    section.fifa {
+        margin-top: 15px;
+    }
+    section.rebook {
+        margin-top: 15px;
+    }
+    section.supersport {
+        margin-top: 15px;
+    }
+    section.annas {
+        margin-top: 15px;
+    }
+    .categories .sort p.te {
+        font-size: 20px;
+    }
+    .categories .sort .fifa p.te {
+        font-size: 20px;
+    }
+    .categories .sort .fifa #discount p.xt {
+        font-size: 20px;
+    }
+    .categories .sort .fifa #discount p.boldred {
+        font-size: 20px;
+    }
+    .categories .sort .rebook p.te {
+        font-size: 20px;
+    }
+    p.xt {
+        font-size: 20px;
+    }
+    p.boldred {
+        font-size: 20px;
+    }
+    .categories .sort .annas p.te {
+        font-size: 20px;
+    }
+    .categories .sort .brands .annas img {
+        width: 7%;
+        height: auto;
+    }
+    .categories .sort .mlb img{
+        width: 200px;
+        height: 200px;
+    }
+    .categories .sort .pume img{
+        width: 200px;
+        height: 200px;
+    }
+    .categories .sort .fifa img{
+        width: 200px;
+        height: 200px;
+    }
+    .categories .sort .rebook img{
+        width: 200px;
+        height: 200px;
+    }
+    .categories .sort .supersport img{
+        width: 200px;
+        height: 200px;
+    }
+    .categories .sort .annas img{
+        width: 200px;
+        height: 200px;
+    }
+    .categories .sort .annas #discount p.xt {
+        font-size: 20px;
+    }
+    .categories .sort .annas #discount p.boldred {
+        font-size: 20px;
+    }
+    .categories .sort .topline02 .button24 {
+        margin-left: 15px;
+    }
+
+    /*------------------------------------------------- T-shirt------------------------------------------------------------- */
+
+       /* T-shirt */
+
+       .t-shirt .quantity .plus {
+        margin: 0px 0px 0px 0px;
+        height: 54px;
+    }
+
+    .t-shirt .quantity .plus p {
+        padding: 0px 4px;
+    }
+
+    .t-shirt .one {
+        margin-top: 20px;
+    }
+
+    .t-shirt .one button {
+        padding: 15px 10px;
+    }
+
+    .t-shirt .minus {
+        margin-bottom: 20px;
+    }
+
+    .t-shirt .minus button {
+        font-size: 24px;
+    }
+
+    .t-shirt .tags #ss {
+        text-align: left;
+        margin-top: 10px;
+    }
+
+    /* Clothes */
+
+    .clothes .clthimg img {
+        width: 145px;
+    }
+
+    .clothes .clthimg #colimg {
+        display: inline;
+        width: 50%;
+    }
+
+    /* Sportsware */
+
+    .sportsware .reviews {
+        text-align: left;
+    }
+
+    .sportsware .reviews p.des {
+        font-size: 21px;
+    }
+
+    .sportsware .reviews p.addi {
+        font-size: 21px;
+        margin-top: 10px;
+        margin-bottom: 2px;
+        display: block;
+    }
+
+    .sportsware .reviews p.revi {
+        font-size: 21px;
+    }
+
+    .sportsware .reviews p.tab {
+        font-size: 21px;
+    }
+
+    .sportsware .reviews {
+        padding-bottom: 9px;
+    }
+
+    .sportsware .tee .atfvec {
+        text-align: left;
+    }
+
+    .sportsware .tee .paragraph {
+        font-size: 16px;
+        padding: 0px;
+        text-align: left;
+    }
+
+    .sportsware .tee .series {
+        margin: 20px 0px;
+    }
+
+
+    /* Alsolike */
+
+    .alsolike .dotdot {
+        text-align: left;
+    }
+
+    .alsolike .gear img {
+        width: 155px;
+        max-width: none;
+    }
+
+}

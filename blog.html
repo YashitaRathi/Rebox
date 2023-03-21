@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reebook-Blog Masonry</title>
+    <script src="https://kit.fontawesome.com/6cd60c5817.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/slick-theme.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+
+<body>
+    <header>
+        <section class="bar">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3 col-md-4">
+                        <div class="logo">
+                            <img src="images/reebox.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-8">
+                        <form class="search" role="search">
+                            <input type="search" placeholder="Search for product">
+                            <button type="submit"><img src="images/search.png"></button>
+                        </form>
+                    </div>
+                    <div class="col-lg-3">
+                        <div class="headerdropdown">
+                            <div class="dropdown-1">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        English
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">Français</a></li>
+                                        <li><a class="dropdown-item" href="#">Deutsch</a></li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <div class="dropdown-2">
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                        aria-expanded="false">
+                                        USD
+                                    </a>
+                                    <ul class="dropdown-menu">
+                                        <li><a class="dropdown-item" href="#">USD</a></li>
+                                        <li><a class="dropdown-item" href="#">EUR</a></li>
+                                    </ul>
+                                </li>
+                            </div>
+                            <div class="user"><i class="fa-regular fa-user"></i></div>
+                            <div class="heart"><i class="fa-regular fa-heart"></i>
+                                <span class="topbadge" id="badge">0</span>
+                            </div>
+                            <div class="basket">
+                                <i class="fa-solid fa-basket-shopping"></i>
+                                <span class="topbadge" id="badge">0</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container">
+                <button class="btn"><i class="fa fa-bars"></i></button>
+                <p class="nav" href="#">CATEGORIES</p>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                    <ul class="navbar-nav m-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                HOME
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="index.html">Home Page 1</a></li>
+                                <li><a class="dropdown-item" href="">Home Page 2</a></li>
+                                <li><a class="dropdown-item" href="#">Home Page 3</a></li>
+                                <li><a class="dropdown-item" href="#">Home Page 4</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="index.html" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                SHOP
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="shop.html">Shop Page</a></li>
+                                <li><a class="dropdown-item" href="t-shirt.html">Simple Product</a></li>
+                                <li><a class="dropdown-item" href="#">Variable product</a></li>
+                                <li><a class="dropdown-item" href="#">Checkout</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PRODUCT
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown" id="blog">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                BLOG
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="blog.html">Blog Fullwidth</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Sidebar</a></li>
+                                <li><a class="dropdown-item" href="#" id="hore">Blog Masonry</a></li>
+                                <li><a class="dropdown-item" href="#">Blog Detail</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                PAGES
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">About Us</a></li>
+                                <li><a class="dropdown-item" href="#">Coming Soon</a></li>
+                                <li><a class="dropdown-item" href="#">FAQS</a></li>
+                                <li><a class="dropdown-item" href="#">Shipping</a></li>
+                                <li><a class="dropdown-item" href="#">404 Page</a></li>
+                            </ul>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">CONTACT US</a>
+                        </li>
+
+                    </ul>
+                </div>
+                <p class="navi" href="#">OUTLET SALES</p>
+            </div>
+        </nav>
+
+        <div class="couponcode">
+            <p>GET 20% SALE WITH COUPON CODE
+            <p class="dark">#CGBNJK125</p>
+            </p>
+        </div>
+    </header>
+
+    <section class="masonary">
+        <div class="container">
+            <div class="home">
+                <h6 class="first">Home</h6>
+                <h6 class="second">/ Blog Masonry</h6>
+                <h2>Blog Masonry</h2>
+            </div>
+        </div>
+        <section class="blog">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="img01"><img src="images/boxing.png" alt=""></div>
+                        <h4>Challenge Winners Reveal Their Secrets to Success</h4>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <p class="p1">BY</p>
+                                <a class="lin">JOHN</a>
+                            </div>
+                            <div class="col-lg-4 col-md-5">
+                                <i class="fa-regular fa-clock"></i>
+                                <p class="p2">MARCH 1, 2021</p>
+                            </div>
+                            <div class="col-lg-4 col-md-3" id="llo">
+                                <img src="images/message 1.png" alt="">
+                                <p class="p1">0</p>
+                            </div>
+                        </div>
+                        <p class="words">The extensive social distancing policies put in place to limit the spread of
+                            COVID-
+                            19 mean most people will have to</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6" id="col01">
+                                <h6 class="arrow">READ MORE</h6>
+                                <img src="images/button.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-6" id="col02">
+                                <h5 class="cate">Categories:</h5>
+                                <h6 class="cyl"> CYCLING</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="img01"><img src="images/lifting.png" alt=""></div>
+                        <h4>Are Fitness Trackers Worth It? Yes, If You Make Them So.</h4>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <p class="p1">BY</p>
+                                <a class="lin">JOHN</a>
+                            </div>
+                            <div class="col-lg-4 col-md-5">
+                                <i class="fa-regular fa-clock"></i>
+                                <p class="p2">MARCH 1, 2021</p>
+                            </div>
+                            <div class="col-lg-4 col-md-3" id="llo">
+                                <img src="images/message 1.png" alt="">
+                                <p class="p1">0</p>
+                            </div>
+                        </div>
+                        <p class="words">The extensive social distancing policies put in place to limit the spread of
+                            COVID-
+                            19 mean most people will have to</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6" id="col01">
+                                <h6 class="arrow">READ MORE</h6>
+                                <img src="images/button.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-6" id="col02">
+                                <h5 class="cate">Categories:</h5>
+                                <h6 class="cyl">SPORT</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog00">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="img01"><img src="images/shoes01.png" alt=""></div>
+                        <h4>Mercurial Dream Speed Chapter 5 Has Arrived!</h4>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <p class="p1">BY</p>
+                                <a class="lin">JOHN</a>
+                            </div>
+                            <div class="col-lg-4 col-md-5">
+                                <i class="fa-regular fa-clock"></i>
+                                <p class="p2">MARCH 3, 2021</p>
+                            </div>
+                            <div class="col-lg-4 col-md-3" id="llo">
+                                <img src="images/message 1.png" alt="">
+                                <p class="p1">4</p>
+                            </div>
+                        </div>
+                        <p class="words">The extensive social distancing policies put in place to limit the spread of
+                            COVID-
+                            19 mean most people will have to</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6" id="col01">
+                                <h6 class="arrow">READ MORE</h6>
+                                <img src="images/button.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-6" id="col02">
+                                <h5 class="cate">Categories:</h5>
+                                <h6 class="cyl">FASHION</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="img01"><img src="images/skateboard.png" alt=""></div>
+                        <h4>The Merging Of Hip Hop Culture With Skating Culture</h4>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <p class="p1">BY</p>
+                                <a class="lin">JOHN</a>
+                            </div>
+                            <div class="col-lg-4 col-md-5">
+                                <i class="fa-regular fa-clock"></i>
+                                <p class="p2">MARCH 4, 2021</p>
+                            </div>
+                            <div class="col-lg-4 col-md-3" id="llo">
+                                <img src="images/message 1.png" alt="">
+                                <p class="p1">3</p>
+                            </div>
+                        </div>
+                        <p class="words">The extensive social distancing policies put in place to limit the spread of
+                            COVID-
+                            19 mean most people will have to</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6" id="col01">
+                                <h6 class="arrow">READ MORE</h6>
+                                <img src="images/button.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-6" id="col02">
+                                <h5 class="cate">Categories:</h5>
+                                <h6 class="cyl">BASEBALL</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog02">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6">
+                        <div class="img01"><img src="images/racket.png" alt=""></div>
+                        <h4>Should You Buy The New Wilson Clash V2 Racquet?</h4>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <p class="p1">BY</p>
+                                <a class="lin">JOHN</a>
+                            </div>
+                            <div class="col-lg-4 col-md-5">
+                                <i class="fa-regular fa-clock"></i>
+                                <p class="p2">MARCH 5, 2021</p>
+                            </div>
+                            <div class="col-lg-4 col-md-3" id="llo">
+                                <img src="images/message 1.png" alt="">
+                                <p class="p1">0</p>
+                            </div>
+                        </div>
+                        <p class="words">The extensive social distancing policies put in place to limit the spread of
+                            COVID-
+                            19 mean most people will have to</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6" id="col01">
+                                <h6 class="arrow">READ MORE</h6>
+                                <img src="images/button.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-6" id="col02">
+                                <h5 class="cate">Categories:</h5>
+                                <h6 class="cyl">TENNIS</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6">
+                        <div class="img01"><img src="images/boxing.png" alt=""></div>
+                        <h4>Workout at Home, Improve Health with Supersports</h4>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <p class="p1">BY</p>
+                                <a class="lin">JOHN</a>
+                            </div>
+                            <div class="col-lg-4 col-md-5">
+                                <i class="fa-regular fa-clock"></i>
+                                <p class="p2">MARCH 25, 2021</p>
+                            </div>
+                            <div class="col-lg-4 col-md-3" id="llo">
+                                <img src="images/message 1.png" alt="">
+                                <p class="p1">0</p>
+                            </div>
+                        </div>
+                        <p class="words">The extensive social distancing policies put in place to limit the spread of
+                            COVID-
+                            19 mean most people will have to</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6" id="col01">
+                                <h6 class="arrow">READ MORE</h6>
+                                <img src="images/button.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-6" id="col02">
+                                <h5 class="cate">Categories:</h5>
+                                <h6 class="cyl">GYM</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="blog03">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-6" id="order2">
+                        <div class="img01"><img src="images/shoes.png" alt=""></div>
+                        <h4>How To Save Your Running Hydration Kit: Step-By-Step</h4>
+                        <div class="row">
+                            <div class="col-lg-4 col-md-4">
+                                <p class="p1">BY</p>
+                                <a class="lin">JOHN</a>
+                            </div>
+                            <div class="col-lg-4 col-md-5">
+                                <i class="fa-regular fa-clock"></i>
+                                <p class="p2">MARCH 30, 2021</p>
+                            </div>
+                            <div class="col-lg-4 col-md-3" id="llo">
+                                <img src="images/message 1.png" alt="">
+                                <p class="p1">0</p>
+                            </div>
+                        </div>
+                        <p class="words">The extensive social distancing policies put in place to limit the spread of
+                            COVID-
+                            19 mean most people will have to</p>
+                        <div class="row">
+                            <div class="col-lg-6 col-md-6">
+                                <h6 class="arrow">READ MORE</h6>
+                                <img src="images/button.png" alt="">
+                            </div>
+                            <div class="col-lg-6 col-md-6" id="col02">
+                                <h5 class="cate">Categories:</h5>
+                                <h6 class="cyl">FOOTBALL</h6>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-6" id="order1">
+                        <div class="box">
+                            <h4 class="you"><i>You have to do something in your life that is honorable
+                                    and not cowardly if you are to live in peace with yourself.</i>
+                            </h4>
+                            <div class="row">
+                                <div class="col-lg-4 col-md-4">
+                                    <p class="p1">BY</p>
+                                    <a class="lin">JOHN</a>
+                                </div>
+                                <div class="col-lg-4 col-md-5" id="hell">
+                                    <i class="fa-regular fa-clock"></i>
+                                    <p class="p2">MARCH 30, 2021</p>
+                                </div>
+                                <div class="col-lg-4 col-md-3" id="hello">
+                                    <p class="p1">QUOTE</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="but"><button>LOAD MORE</button></div>
+    </section>
+
+    <footer>
+        <section class="foot">
+            <div class="container">
+                <div class="want">
+                    <h3>Want style Ideas and Treats?</h3>
+                </div>
+                <form>
+                    <input class="email" placeholder="Your email here...">
+                    <button type="arrow"><img src="images/arrowside.png"></button>
+                </form>
+            </div>
+        </section>
+
+        <section class="list">
+            <div class="container">
+                <div class="row d-flex justify-content-center">
+                    <div class="col-lg-2 col-md-2">
+                        <div class="sjjjj">
+                            <h6>MEN</h6>
+                            <p>Men Accessories</p>
+                            <p>Men Jacket</p>
+                            <p>Men Shoes</p>
+                            <p>Men Short</p>
+                            <p>Men T-Shirt</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <div class="sjjjj">
+                            <h6>WOMEN</h6>
+                            <p>Women Accessories</p>
+                            <p>Women Coat</p>
+                            <p>Women Shoes</p>
+                            <p>Women Short</p>
+                            <p>Women T-Shirt</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <div class="sjjjj">
+                            <h6>SPORTING GOODS</h6>
+                            <p>Baseball</p>
+                            <p>Boxing</p>
+                            <p>Gym</p>
+                            <p>Swimming</p>
+                            <p>Tennis</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <div class="sjjjj">
+                            <h6>INFORMATION</h6>
+                            <p>About us</p>
+                            <p>Contact us</p>
+                            <p>Terms of Use</p>
+                            <p>Privacy Policy</p>
+                            <p>Payment Options</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-2 col-md-2">
+                        <div class="sjjjj">
+                            <h6>GET HELP</h6>
+                            <p>FAQs</p>
+                            <p>Shipping</p>
+                            <p>Return</p>
+                            <p>Order Status</p>
+                            <p>Find A Store</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="media">
+            <img src="images/arrowup.png">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="text">
+                            <h6>&copy REEBOX</h6>
+                            <p>- All Rights Reserved.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="socialmedia">
+                            <img src="images/facebook.png">
+                            <img src="images/instagram.png">
+                            <img src="images/twitter.png">
+                            <img src="images/youtube.png">
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-4 col-sm-12">
+                        <div class="sm">
+                            <img src="images/payment-pnhn3121k2pep1st83gy6ebt6x9m4he1pigjth2ycm 1.png">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/slick.min.js"></script>
+</body>
+
+</html>
